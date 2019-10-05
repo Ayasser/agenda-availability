@@ -9,7 +9,9 @@
     "test": "yarn db:migrate && jest --watch"
   },
   "dependencies": {
+    "chai": "^4.2.0",
     "knex": "^0.14.6",
+    "lodash": "^4.17.15",
     "moment": "^2.22.1",
     "sqlite3": "^4.0.0"
   },
@@ -17,6 +19,6 @@
     "babel-cli": "^6.26.0",
     "babel-plugin-module-resolver": "^3.1.1",
     "babel-preset-env": "^1.7.0",
-    "jest": "^23.1.0"
+    "jest": "^24.9.0"
   }
 }
